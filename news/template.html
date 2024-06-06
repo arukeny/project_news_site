@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заголовок новости</title>
+    <link rel="stylesheet" href="../../styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Главная</a></li>
+                <li><a href="../../about.html">О нас</a></li>
+                <li><a href="../../contact.html">Контакты</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Категории</a>
+                    <div class="dropdown-content">
+                        <a href="../../index.html" onclick="showCategory('politics')">Политика</a>
+                        <a href="../../index.html" onclick="showCategory('sports')">Спорт</a>
+                        <a href="../../index.html" onclick="showCategory('technology')">Технологии</a>
+                        <a href="../../index.html" onclick="showCategory('culture')">Культура</a>
+                        <a href="../../index.html" onclick="showCategory('science')">Наука</a>
+                        <a href="../../index.html" onclick="showCategory('world')">В мире</a>
+                        <a href="../../index.html" onclick="showCategory('moscow')">Москва</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Заголовок новости</h1>
+        <p>Дата: <!-- Вставьте дату публикации --></p>
+        <p><!-- Вставьте текст новости здесь --></p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Новостной сайт. Все права защищены.</p>
+    </footer>
+</body>
+</html>

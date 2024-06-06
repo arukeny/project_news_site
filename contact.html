@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Категории</a>
+                    <div class="dropdown-content">
+                        <a href="news/politics.html">Политика</a>
+                        <a href="news/sports.html">Спорт</a>
+                        <a href="news/technology.html">Технологии</a>
+                        <a href="news/culture.html">Культура</a>
+                        <a href="news/science.html">Наука</a>
+                        <a href="news/world.html">В мире</a>
+                        <a href="news/moscow.html">Москва</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Контакты</h1>
+        <p>Если у вас есть вопросы, предложения или вы хотите поделиться с нами своей историей, вы можете связаться с нами по следующим контактам:</p>
+        <p><strong>Email:</strong> info@newssite.com</p>
+        <p><strong>Телефон:</strong> +7 (123) 456-78-90</p>
+        <p><strong>Адрес:</strong> ул. Примерная, д. 1, офис 123, г. Москва, Россия</p>
+        <p>Вы также можете заполнить форму ниже, и мы свяжемся с вами в ближайшее время:</p>
+        <form action="mailto:info@newssite.com" method="post" enctype="text/plain">
+            <label for="name">Имя:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Сообщение:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Отправить">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Новостной сайт. Все права защищены.</p>
+    </footer>
+</body>
+</html>
